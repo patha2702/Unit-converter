@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding-block: 2%;
+    font-family: 'Inter';
+    text-align: center;
+    background-color: black;
+}
+
+.app-container {
+    width: 70%;
+    height: 39rem;
+    margin: 1rem auto;
+}
+
+.app-container__top-section{
+    padding: 1rem;
+    height: 15rem;
+    background: #6943FF;
+}
+
+.app-container__bottom-section{
+    padding: 1rem;
+    margin: 0;
+    height: 21rem;
+    background: #1F2937;
+}
+
+.app-container__bottom-section div{
+    height: 25%;
+    margin-block: 1rem;
+    padding: 2%;
+    background: #273549;
+}
+
+h1{
+    margin: 1rem auto 1rem auto;
+    height: 38px;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+h4{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #CCC1FF;
+}
+
+#input-el{
+    height: 6rem;
+    width: 8rem;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+button{
+    display: block;
+    width: 20%;
+    height: 2rem;
+    margin: 0.7rem auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+}
+
+p{
+    margin-block: 1%;
+    height: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
